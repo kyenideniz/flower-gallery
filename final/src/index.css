@@ -81,6 +81,7 @@ body {
   width: 37rem;
   height: 42rem;
   position: relative;
+  
 }
 
 @media (max-width: 500px) {
@@ -102,6 +103,17 @@ body {
   height: 42rem;
   border-radius: 2rem;
   object-fit: cover;
+  filter: brightness(60%);
+  transition: 0.3s;
+}
+.swiper-slide img:hover {
+  width: 39rem;
+  height: 44rem;
+  border-radius: 2rem;
+  object-fit: cover;
+  filter: brightness(100%);
+  margin-right: 1rem;
+  margin-bottom: 2rem;
 }
 
 .swiper-slide-shadow-left,
